@@ -1,0 +1,15 @@
+[package]
+name = "clipweb"
+version = "0.1.0"
+authors = ["Paul Lesur <paul.lesur59@gmail.com>"]
+edition = "2018"
+
+[dependencies.rocket_contrib]
+version = "0.4.0"
+default-features = false
+features = ["json", "serve"]
+
+[dependencies]
+rocket = "0.4.0"
+serde = "1.0.82"
+serde_derive = "1.0.82"

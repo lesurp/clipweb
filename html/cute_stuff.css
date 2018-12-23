@@ -1,0 +1,46 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: rgb(0, 40, 0);
+	min-height: 95%;
+	width: 67%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fill_me {
+	background: rgb(0, 60, 0);
+	color: rgb(140, 140, 140);
+	display: block;
+	font-size: 200%;
+	height: 80vh;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	padding: 1%;
+	width: 98%;
+}
+
+.status_bar {
+	background-color: rgb(130, 20, 20);
+	border-color: rgb(140, 40, 40);
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(250, 190, 190);
+	font-family: Verdana, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	opacity: 1;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	transition-delay: 0s;
+	transition-duration: 0.15s;
+	transition-property: opacity;
+	transition-timing-function: linear;
+	display: none;
+}
